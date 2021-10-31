@@ -1,0 +1,7 @@
+- name: Installing Applications via brew
+  shell: brew install --cask '{{ item }}'
+  with_items: "{{ brew_install_Apps }}"
+
+- name: Installing frameworks via brew
+  shell: brew install --cask '{{ item }}'
+  with_items: "{{ brew_install_frameworks }}"

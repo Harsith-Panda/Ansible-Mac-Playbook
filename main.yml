@@ -1,0 +1,6 @@
+---
+- hosts: all
+  #user: harsith-developer
+
+  roles:
+  - homebrew

@@ -1,0 +1,13 @@
+brew_install_Apps:
+  - obsidian
+  - microsoft-teams
+  - notion
+  - vmware-fusion
+  - spotify
+  - whatsapp
+  - visual-studio-code
+  - burp-suite
+  - google-chrome
+
+brew_install_framework:
+  - node
