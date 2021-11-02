@@ -4,4 +4,6 @@ This is my repo of ansible playbook just trying to automate my Mac setup process
 I have used only homebrew function because I only want to automate the installation process and not the dock 
 If you want to use dock also make sure to add in role ' - Dock '
 
+Command : ansible-playbook -i inventory --ask-become-pass -e @vars/main.yml main.yml
+
 # Thank You
